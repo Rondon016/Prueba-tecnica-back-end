@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribución de Juguetes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Distribuidor de Juguetes</h1>
+
+        <p>Ingresa los valores para la matriz de juguetes (usa "null" para celdas vacías):</p>
+
+        <!-- Formulario para ingresar la matriz -->
+        <div id="matrixInputs" class="grid">
+            <input type="number" id="cell-0-0" placeholder="null">
+            <input type="number" id="cell-0-1" placeholder="null">
+            <input type="number" id="cell-0-2" placeholder="null">
+            <input type="number" id="cell-1-0" placeholder="null">
+            <input type="number" id="cell-1-1" placeholder="null">
+            <input type="number" id="cell-1-2" placeholder="null">
+            <input type="number" id="cell-2-0" placeholder="null">
+            <input type="number" id="cell-2-1" placeholder="null">
+            <input type="number" id="cell-2-2" placeholder="null">
+        </div>
+
+        <button onclick="processMatrix()">Calcular distribución</button>
+
+        <div id="result">
+            <!-- Aquí se mostrará la matriz de salida -->
+        </div>
+    </div>
+
+    <script src="LogicProblem2.js"> </script>
+
+
+</body>
+</html>
